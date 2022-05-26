@@ -3,8 +3,14 @@ body {
     text-align: center;
 }
 /* layout */
-.logo, .highlight, .container-3 {
+.logo, .highlight, .container-3, .header {
     background: #0A0A0Bff;
+    color:#FFF;
+}
+.header{
+    padding: 8%;
+    text-align: left;
+    
 }
 .logo{
     display: flex;
@@ -13,23 +19,21 @@ body {
 }
 .highlight{
     display: flex;
-    color:#FFF;
     padding:0;
 }
 
 .container-2 {
     display: flex;
-    width: 100%;
+    width: 90%;
     align-items: center;
     background: #2F3138ff;
     color: #FFF;
-    padding: 5%;
+    padding: 8%;
 }
 
 .container-3{
     align-items: left;
     padding:8%;
-    color:#FFF;
 }
 
 /* button */
@@ -37,4 +41,8 @@ body {
     padding: 0.35rem 1rem;
     background: yellow;
     text-decoration: none;
+}
+
+.btn:hover {
+    background: rgb(70, 136, 70);
 }
