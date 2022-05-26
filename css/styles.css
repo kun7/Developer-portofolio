@@ -1,3 +1,40 @@
 body {
     margin:0;
+    text-align: center;
+}
+/* layout */
+.logo, .highlight, .container-3 {
+    background: #0A0A0Bff;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.highlight{
+    display: flex;
+    color:#FFF;
+    padding:0;
+}
+
+.container-2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #2F3138ff;
+    color: #FFF;
+    padding: 5%;
+}
+
+.container-3{
+    align-items: left;
+    padding:8%;
+    color:#FFF;
+}
+
+/* button */
+.btn {
+    padding: 0.35rem 1rem;
+    background: yellow;
+    text-decoration: none;
 }
