@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 /* layout */
-.logo, .highlight, .container-3, .header {
+.logo, .highlight, .container-3, .header, footer{
     background: #0A0A0Bff;
     color:#FFF;
 }
@@ -45,4 +45,8 @@ body {
 
 .btn:hover {
     background: rgb(70, 136, 70);
+}
+
+footer ul {
+    text-align: center;
 }
