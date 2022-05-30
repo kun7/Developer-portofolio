@@ -50,3 +50,11 @@ body {
 footer ul {
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
